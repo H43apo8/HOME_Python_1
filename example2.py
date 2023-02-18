@@ -6,4 +6,4 @@
 100 -> 1 (1 + 0 + 0) |'''
 
 i = input()
-print(int(i[0])+int(i[1])+int(i[2]))
+print(int(i[0]) + int(i[1]) + int(i[2]))
