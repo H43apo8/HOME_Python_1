@@ -8,8 +8,8 @@
 
 
 N = abs(int(input('Введите количество элементов массива: ')))
-Inter_N = input("Введите ч/з пробел элементы массива: ").split()
-number = list(map(int, Inter_N))
+Enter_N = input("Введите ч/з пробел элементы массива: ").split()
+number = list(map(int, Enter_N))
 if len(number) != N:
     print('Введенные данные не соответствуют размеру массива!')
 else:
